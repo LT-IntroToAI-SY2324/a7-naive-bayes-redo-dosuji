@@ -315,4 +315,20 @@ if __name__ == "__main__":
     print("\nThe following should all be negative.")
     print(b.classify('rainy days are the worst'))
     print(b.classify('computer science is terrible'))
+
+    print("\nThe following is to test out the method with each groups responses")
+    print(b.classify('Im so excited for the solar eclipse! Its going to be so cool!'))
+    print(b.classify('This was the most eye-opening and enlightening experience of my life.'))
+    print(b.classify('This was amazing.'))
+    print(b.classify('Yipee, this is a movie I would definitely recommend.'))
+    print("\nNegative Section")
+    print(b.classify('The solar eclipse is going to be boring, why should we waste our time?'))
+    print(b.classify('This was so garbage, I do not recommend it.'))
+    print(b.classify('This was worse than the SAT, and the SAT is already bad.'))
+    print(b.classify('This was meh at best.'))
+
+    print(b.classify('This film was truly one remarkable film that I watched recently.'))
+    print(b.classify('Amazing acting, ksh is such a great actor.'))
+    print(b.classify('This film was worse than dog poop.'))
+    print(b.classify('A startling inept movie.'))
     pass
